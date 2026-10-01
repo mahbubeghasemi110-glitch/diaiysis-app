@@ -1,20 +1,80 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>آموزش و ارزیابی دیالیز</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سامانه آموزش و ارزیابی مهارت‌های دیالیز</title>
+<style>
+body{
+font-family:Tahoma,Arial,sans-serif;
+background:#f4f8fb;
+margin:0;
+padding:20px;
+text-align:center;
+color:#263238;
+}
+.box{
+max-width:600px;
+margin:30px auto;
+background:white;
+padding:25px 18px;
+border-radius:20px;
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+h1{font-size:23px;}
+.item{
+background:#eef5f8;
+margin:10px 0;
+padding:14px;
+border-radius:12px;
+font-size:16px;
+}
+button{
+margin-top:25px;
+padding:14px 40px;
+border:0;
+border-radius:12px;
+font-size:18px;
+background:#1976d2;
+color:white;
+}
+#content{
+display:none;
+margin-top:25px;
+line-height:2;
+}
+</style>
 </head>
+
 <body>
-  <h1>📚 سامانه آموزش و ارزیابی مهارت‌های دیالیز</h1>
-  <p>ویژه دانشجویان و مهارت‌جویان</p>
+<div class="box">
 
-  <h2>بخش‌های آموزشی</h2>
-  <p>📖 آموزش گام‌به‌گام دیالیز</p>
-  <p>🩺 سناریوهای کیس‌محور</p>
-  <p>✅ آزمون و ارزیابی مهارت</p>
-  <p>📊 مشاهده نتیجه</p>
+<h1>📚 سامانه آموزش و ارزیابی مهارت‌های دیالیز</h1>
 
-  <p>به سامانه آموزش و ارزیابی مهارت‌های دیالیز خوش آمدید 🌷</p>
+<p>ویژه دانشجویان و مهارت‌جویان 🌷</p>
+
+<h2>بخش‌های آموزشی</h2>
+
+<div class="item">📖 آموزش گام‌به‌گام دیالیز</div>
+<div class="item">🩺 سناریوهای کیس‌محور</div>
+<div class="item">✅ آزمون و ارزیابی مهارت</div>
+<div class="item">📊 مشاهده نتیجه</div>
+
+<button onclick="startApp()">شروع</button>
+
+<div id="content">
+<h2>🌷 خوش آمدید</h2>
+<p>شما وارد سامانه آموزش و ارزیابی مهارت‌های دیالیز شدید.</p>
+<p>در این سامانه می‌توانید آموزش‌ها، سناریوهای کیس‌محور و آزمون‌های مهارتی را دنبال کنید.</p>
+</div>
+
+</div>
+
+<script>
+function startApp(){
+document.getElementById("content").style.display="block";
+}
+</script>
+
 </body>
 </html>
